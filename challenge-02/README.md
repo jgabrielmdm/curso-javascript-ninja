@@ -40,19 +40,25 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-?
+> function newFunction (x, y, z){
+... if (x === undefined || y === undefined || z === undefined)
+... {
+..... return 'preencha todos os valores corretamente!'
+..... }
+... return x * y * z + 2;
+... }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-?
+newFunction (2, 4)
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+// 'preencha todos os valores corretamente!'
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-?
+ newFunction (2, 4, 6)
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
-?
+// 50
 
 /*
 Crie uma função com as seguintes características:
